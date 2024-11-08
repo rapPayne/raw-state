@@ -1,0 +1,28 @@
+{
+  "name": "raw-state",
+  "version": "0.0.1",
+  "description": "Super-simple state management library for JavaScript/TypeScript apps",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapPayne/raw-state.git"
+  },
+  "keywords": [
+    "[\"state\"",
+    "\"state",
+    "management\"]"
+  ],
+  "author": "Rap Payne",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rapPayne/raw-state/issues"
+  },
+  "homepage": "https://github.com/rapPayne/raw-state#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
