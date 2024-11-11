@@ -12,6 +12,20 @@ import { rawState } from 'raw-state';
 ## To write to state
 From any file, module, or function
 ```javascript
+rawState.age = 29;
+rawState.greeting = 'hello world';
+rawState.startTime = new Date();
+rawState.user = { username: 'jo', first: 'Jo', last: 'Kim', email: 'jo@kim.com'};
+```
+or
+```javascript
+rawState['age'] = 29;
+rawState['greeting'] = 'hello world';
+rawState['startTime'] = new Date();
+rawState['user'] = { username: 'jo', first: 'Jo', last: 'Kim', email: 'jo@kim.com'};
+```
+or
+```javascript
 rawState.set('age', 29);
 rawState.set('greeting', 'hello world');
 rawState.set('startTime', new Date());
